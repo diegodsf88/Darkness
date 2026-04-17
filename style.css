@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050505;
+  color: #f2f2f2;
+}
+
+header {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  border-bottom: 1px solid #333;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.shadow-card {
+  background: #1a1a1a;
+  border: 1px solid #444;
+  padding: 20px;
+  min-width: 180px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(255,255,255,0.05);
+}
